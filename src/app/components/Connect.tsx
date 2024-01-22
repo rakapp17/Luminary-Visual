@@ -7,7 +7,7 @@ function Connect() {
         <h2 className=" text-white text-center text-[30px] font-bold mb-2">
           Let's Connect
         </h2>
-        <button className="text-white px-3 py-2 border-2 border-white rounded-xl self-center ml-[6px]">
+        <button className="text-white px-3 py-2 border-2 border-white rounded-xl self-center ml-[8px] hover:bg-white hover:text-slate-600">
           Download Pricelist
         </button>
       </div>

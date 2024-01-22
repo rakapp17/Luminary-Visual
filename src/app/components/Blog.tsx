@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 function Blog() {
   return (
     <div>
@@ -15,51 +16,51 @@ function Blog() {
         <Image src="/hero.jpg" alt="hero" fill={true}></Image>
         <Image src="/hero.jpg" alt="hero" fill={true}></Image>
         <Image src="/hero.jpg" alt="hero" fill={true}></Image> */}
-        <div className="w-[330px] h-[210px] border-2">
+        <Link href={"/"} className="w-[330px] h-[210px] border-2">
           <img
             className="w-full h-full object-cover"
             src="/hero.jpg"
             alt="pic1"
           />
-        </div>
-        <div className="w-[330px] h-[210px]">
+        </Link>
+        <Link href={"/"} className="w-[330px] h-[210px]">
           <img
             className="w-full h-full object-cover"
             src="/hero.jpg"
             alt="pic1"
           />
-        </div>
-        <div className="w-[330px] h-[210px]">
+        </Link>
+        <Link href={"/"} className="w-[330px] h-[210px]">
           <img
             className="w-full h-full object-cover"
             src="/hero.jpg"
             alt="pic1"
           />
-        </div>
-        <div className="w-[330px] h-[210px]">
+        </Link>
+        <Link href={"/"} className="w-[330px] h-[210px]">
           <img
             className="w-full h-full object-cover"
             src="/hero.jpg"
             alt="pic1"
           />
-        </div>
-        <div className="w-[330px] h-[210px]">
+        </Link>
+        <Link href={"/"} className="w-[330px] h-[210px]">
           <img
             className="w-full h-full object-cover"
             src="/hero.jpg"
             alt="pic1"
           />
-        </div>
-        <div className="w-[330px] h-[210px]">
+        </Link>
+        <Link href={"/"} className="w-[330px] h-[210px]">
           <img
             className="w-full h-full object-cover"
             src="/hero.jpg"
             alt="pic1"
           />
-        </div>
+        </Link>
       </div>
       <div className="w-full h-auto p-8 flex justify-center items-center">
-        <button className=" bg-slate-600 text-white font-bold text-sm p-3 rounded-xl">
+        <button className=" bg-slate-600 text-white font-bold text-sm p-3 rounded-xl hover:bg-slate-800">
           View All Portofolio
         </button>
       </div>

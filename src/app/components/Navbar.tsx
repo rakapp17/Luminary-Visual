@@ -26,31 +26,31 @@ function Navbar() {
         </div>
         <div className="hidden md:flex-row gap-16 md:flex md:gap-8  xl:gap-14 2xl:gap-32">
           <Link
-            className="text-white font-normal  lg:text-[13px] md:text-[12px] xl:text-[14px] 2xl:text-[18px]"
+            className="text-white font-normal  lg:text-[13px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] hover:scale-105 hover:font-bold hover:text-slate-600 hover:ease-out transition duration-300"
             href="/"
           >
             HOME
           </Link>
           <Link
-            className="text-white font-normal lg:text-[13px] md:text-[12px] xl:text-[14px] 2xl:text-[18px]"
+            className="text-white font-normal lg:text-[13px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] hover:scale-105 hover:font-bold hover:text-slate-600 hover:ease-out transition duration-300 "
             href="/"
           >
             PORTOFOLIO
           </Link>
           <Link
-            className="text-white font-normal lg:text-[13px] md:text-[12px] xl:text-[14px] 2xl:text-[18px]"
+            className="text-white font-normal lg:text-[13px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] hover:scale-105 hover:font-bold hover:text-slate-600 hover:ease-out transition duration-300"
             href="/"
           >
             BLOG
           </Link>
           <Link
-            className="text-white font-normal lg:text-[13px] md:text-[12px] xl:text-[14px] 2xl:text-[18px]"
+            className="text-white font-normal lg:text-[13px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] hover:scale-105 hover:font-bold hover:text-slate-600 hover:ease-out transition duration-300"
             href="/"
           >
             INFO
           </Link>
           <Link
-            className="text-white font-normal lg:text-[13px] md:text-[12px] xl:text-[14px] 2xl:text-[18px]"
+            className="text-white font-normal lg:text-[13px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] hover:scale-105 hover:font-bold hover:text-slate-600 hover:ease-out transition duration-300"
             href="/"
           >
             CONTACT
