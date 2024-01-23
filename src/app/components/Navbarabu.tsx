@@ -2,7 +2,6 @@
 
 import React from "react";
 import Link from "next/link";
-import "swiper/css";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoCloseOutline } from "react-icons/io5";
 import { useState, useEffect } from "react";
@@ -13,7 +12,7 @@ const handleClick = () => {
   navMenu?.classList.toggle("hidden");
 };
 
-function Navbar() {
+function Navbarabu() {
   const [header, setHeader] = useState(false);
   const scrollHeader = () => {
     if (window.scrollY >= 0) {
@@ -30,7 +29,7 @@ function Navbar() {
     <div>
       <div
         id="nav"
-        className=" w-full h-[80px] lg:h-[85px] flex justify-between items-center px-8 md:px-16 lg:px-20 xl:px-24 md:h-[70px] xl:h-[100px] 2xl:h-[120px] z-20 fixed"
+        className="bg-slate-600 w-full h-[80px] lg:h-[85px] flex justify-between items-center px-8 md:px-16 lg:px-20 xl:px-24 md:h-[70px] xl:h-[100px] 2xl:h-[120px] z-20"
         // // className={
         // //   header
         // //     ? "bg-red-700"
@@ -48,31 +47,31 @@ function Navbar() {
         </div>
         <div className="hidden md:flex-row gap-16 md:flex md:gap-8  xl:gap-14 2xl:gap-32">
           <Link
-            className="text-white font-normal  lg:text-[13px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] hover:scale-105 hover:font-bold hover:text-slate-600 hover:ease-out transition duration-300"
+            className="text-white font-normal  lg:text-[13px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] hover:scale-105 hover:font-bold hover:ease-out transition duration-300"
             href="/"
           >
             HOME
           </Link>
           <Link
-            className="text-white font-normal lg:text-[13px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] hover:scale-105 hover:font-bold hover:text-slate-600 hover:ease-out transition duration-300 "
+            className="text-white font-normal lg:text-[13px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] hover:scale-105 hover:font-bold hover:ease-out transition duration-300 "
             href="portofolio"
           >
             PORTOFOLIO
           </Link>
           <Link
-            className="text-white font-normal lg:text-[13px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] hover:scale-105 hover:font-bold hover:text-slate-600 hover:ease-out transition duration-300"
+            className="text-white font-normal lg:text-[13px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] hover:scale-105 hover:font-bold hover:ease-out transition duration-300"
             href="/"
           >
             BLOG
           </Link>
           <Link
-            className="text-white font-normal lg:text-[13px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] hover:scale-105 hover:font-bold hover:text-slate-600 hover:ease-out transition duration-300"
+            className="text-white font-normal lg:text-[13px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] hover:scale-105 hover:font-bold hover:ease-out transition duration-300"
             href="/"
           >
             INFO
           </Link>
           <Link
-            className="text-white font-normal lg:text-[13px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] hover:scale-105 hover:font-bold hover:text-slate-600 hover:ease-out transition duration-300"
+            className="text-white font-normal lg:text-[13px] md:text-[12px] xl:text-[14px] 2xl:text-[18px] hover:scale-105 hover:font-bold hover:ease-out transition duration-300"
             href="about"
           >
             CONTACT
@@ -97,7 +96,7 @@ function Navbar() {
             HOME
           </Link>
           <div className="w-[80%] h-[1px] bg-white bg-opacity-30"></div>
-          <Link className=" text-[18px] text-white " href="portofolio">
+          <Link className=" text-[18px] text-white " href="/">
             PORTOFOLIO
           </Link>
           <div className="w-[80%] h-[1px] bg-white bg-opacity-30"></div>
@@ -109,7 +108,7 @@ function Navbar() {
             INFO
           </Link>
           <div className="w-[80%] h-[1px] bg-white bg-opacity-30"></div>
-          <Link className=" text-[18px] text-white " href="about">
+          <Link className=" text-[18px] text-white " href="/">
             CONTACT
           </Link>
         </div>
@@ -118,4 +117,4 @@ function Navbar() {
   );
 }
 
-export default Navbar;
+export default Navbarabu;

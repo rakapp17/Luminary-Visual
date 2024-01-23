@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Merriweather } from "next/font/google";
 import "./globals.css";
+import { handleClientScriptLoad } from "next/script";
 
 const merriweather = Merriweather({ subsets: ["latin"], weight: "300" });
 
