@@ -19,84 +19,108 @@ function Blogporto() {
         <Image src="/hero.jpg" alt="hero" fill={true}></Image>
         <Image src="/hero.jpg" alt="hero" fill={true}></Image> */}
         <Link href={"/"} className="w-[330px] h-[210px] border-2">
-          <img
+          <Image
+            width={330}
+            height={210}
             className="w-full h-full object-cover"
             src="/hero.jpg"
             alt="pic1"
           />
         </Link>
         <Link href={"/"} className="w-[330px] h-[210px]">
-          <img
+          <Image
+            width={330}
+            height={210}
             className="w-full h-full object-cover"
             src="/hero.jpg"
             alt="pic1"
           />
         </Link>
         <Link href={"/"} className="w-[330px] h-[210px]">
-          <img
+          <Image
+            width={330}
+            height={210}
             className="w-full h-full object-cover"
             src="/hero.jpg"
             alt="pic1"
           />
         </Link>
         <Link href={"/"} className="w-[330px] h-[210px]">
-          <img
+          <Image
+            width={330}
+            height={210}
             className="w-full h-full object-cover"
             src="/hero.jpg"
             alt="pic1"
           />
         </Link>
         <Link href={"/"} className="w-[330px] h-[210px]">
-          <img
+          <Image
+            width={330}
+            height={210}
             className="w-full h-full object-cover"
             src="/hero.jpg"
             alt="pic1"
           />
         </Link>
         <Link href={"/"} className="w-[330px] h-[210px]">
-          <img
+          <Image
+            width={330}
+            height={210}
             className="w-full h-full object-cover"
             src="/hero.jpg"
             alt="pic1"
           />
         </Link>
         <Link href={"/"} className="w-[330px] h-[210px]">
-          <img
+          <Image
+            width={330}
+            height={210}
             className="w-full h-full object-cover"
             src="/hero.jpg"
             alt="pic1"
           />
         </Link>
         <Link href={"/"} className="w-[330px] h-[210px]">
-          <img
+          <Image
+            width={330}
+            height={210}
             className="w-full h-full object-cover"
             src="/hero.jpg"
             alt="pic1"
           />
         </Link>
         <Link href={"/"} className="w-[330px] h-[210px]">
-          <img
+          <Image
+            width={330}
+            height={210}
             className="w-full h-full object-cover"
             src="/hero.jpg"
             alt="pic1"
           />
         </Link>
         <Link href={"/"} className="w-[330px] h-[210px]">
-          <img
+          <Image
+            width={330}
+            height={210}
             className="w-full h-full object-cover"
             src="/hero.jpg"
             alt="pic1"
           />
         </Link>
         <Link href={"/"} className="w-[330px] h-[210px]">
-          <img
+          <Image
+            width={330}
+            height={210}
             className="w-full h-full object-cover"
             src="/hero.jpg"
             alt="pic1"
           />
         </Link>
         <Link href={"/"} className="w-[330px] h-[210px]">
-          <img
+          <Image
+            width={330}
+            height={210}
             className="w-full h-full object-cover"
             src="/hero.jpg"
             alt="pic1"

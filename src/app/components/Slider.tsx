@@ -44,7 +44,13 @@ function Slider() {
       >
         {fadeImages.map((fadeImage, index) => (
           <div className="w-full h-full flex" key={index}>
-            <img className="w-full h-svh object-cover" src={fadeImage.url} />
+            <Image
+              width={1920}
+              height={1080}
+              className="w-full h-svh object-cover"
+              src={fadeImage.url}
+              alt="hero"
+            />
           </div>
         ))}
       </Fade>

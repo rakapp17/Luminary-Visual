@@ -9,7 +9,7 @@ import { IoMdPin } from "react-icons/io";
 
 function Footeritem() {
   return (
-    <div className="w-full h-[200px] flex bg-black px-16 pt-8 pb-4 py-4">
+    <div className="w-full h-[230px] flex bg-black px-16 pt-8 pb-4 py-4">
       <div className="w-1/3 h-full  px-10 flex flex-col gap-2">
         <h2 className="text-white font-bold text-[12px]  lg:text-[14px] md:text-[12px] xl:text-[14px] 2xl:text-[18px]">
           Link

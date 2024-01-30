@@ -1,12 +1,20 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footeritem from "../components/Footeritem";
+import Image from "next/image";
 function page() {
   return (
     <div>
       <Navbar />
       <div className="bg-black w-full h-auto flex flex-col justify-center items-center">
-        <img className="w-auto h-screen" src="/logo.png" alt="Logo" />
+        <Image
+          src={"/logo.png"}
+          alt="logo"
+          width={900}
+          height={900}
+          className="mb-3"
+        />
+        {/* <img className="w-auto h-screen" src="/logo.png" alt="Logo" /> */}
         <div className="w-[80%] lg:w-[50%] h-auto mb-8">
           <p className="text-white text-[12px] lg:text-[16px]">
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure

@@ -15,17 +15,17 @@ const handleClick = () => {
 
 function Navbar() {
   const [header, setHeader] = useState(false);
-  const scrollHeader = () => {
-    if (window.scrollY >= 0) {
-      setHeader(true);
-    } else {
-      setHeader(false);
-    }
+  // const scrollHeader = () => {
+  //   if (window.scrollY >= 0) {
+  //     setHeader(true);
+  //   } else {
+  //     setHeader(false);
+  //   }
 
-    useEffect(() => {
-      window.addEventListener("scroll", scrollHeader);
-    }, []);
-  };
+  //   useEffect(() => {
+  //     window.addEventListener("scroll", scrollHeader);
+  //   }, []);
+  // };
   return (
     <div>
       <div

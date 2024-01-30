@@ -14,17 +14,17 @@ const handleClick = () => {
 
 function Navbarabu() {
   const [header, setHeader] = useState(false);
-  const scrollHeader = () => {
-    if (window.scrollY >= 0) {
-      setHeader(true);
-    } else {
-      setHeader(false);
-    }
+  // const Scroll = () => {
+  //   if (window.scrollY >= 0) {
+  //     setHeader(true);
+  //   } else {
+  //     setHeader(false);
+  //   }
 
-    useEffect(() => {
-      window.addEventListener("scroll", scrollHeader);
-    }, []);
-  };
+  //   useEffect(() => {
+  //     window.addEventListener("scroll", scrollHeader);
+  //   }, []);
+  // };
   return (
     <div>
       <div
