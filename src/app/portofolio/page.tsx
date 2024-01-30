@@ -3,7 +3,7 @@ import Navbarabu from "../components/Navbarabu";
 import Portofolio from "../components/Portofolio";
 import Blogporto from "../components/Blogporto";
 import Image from "next/image";
-import image04 from "@/app/hero4.png";
+import image04 from "../../public/Hero4.png";
 function page() {
   return (
     <div>
