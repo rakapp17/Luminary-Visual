@@ -8,27 +8,27 @@ import Image from "next/image";
 function Slider() {
   const fadeImages = [
     {
-      url: "/Hero.jpg",
+      url: "/Hero.png",
       caption: "First Slide",
     },
     {
-      url: "/Hero2.jpg",
+      url: "/Hero2.png",
       caption: "Second Slide",
     },
     {
-      url: "/Hero3.jpg",
+      url: "/Hero3.png",
       caption: "Third Slide",
     },
     {
-      url: "/Hero4.jpg",
+      url: "/Hero4.png",
       caption: "Third Slide",
     },
     {
-      url: "/Hero5.jpg",
+      url: "/Hero5.png",
       caption: "Third Slide",
     },
     {
-      url: "/Hero6.jpg",
+      url: "/Hero6.png",
       caption: "Third Slide",
     },
   ];

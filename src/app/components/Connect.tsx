@@ -6,7 +6,7 @@ function Connect() {
     <div className="relative w-full h-[646px]">
       <div className="absolute inset-0">
         <Image
-          src={"/hero7.jpg"}
+          src={"/hero7.png"}
           alt="background image"
           fill
           className="object-cover bg-center"

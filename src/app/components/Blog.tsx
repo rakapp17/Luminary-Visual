@@ -22,7 +22,7 @@ function Blog() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero3.jpg"}
+            src={"/hero3.png"}
             alt="pic1"
           />
         </Link>
@@ -31,7 +31,7 @@ function Blog() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero3.jpg"}
+            src={"/hero3.png"}
             alt="pic1"
           />
         </Link>
@@ -40,7 +40,7 @@ function Blog() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero3.jpg"}
+            src={"/hero3.png"}
             alt="pic1"
           />
         </Link>
@@ -49,7 +49,7 @@ function Blog() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero3.jpg"}
+            src={"/hero3.png"}
             alt="pic1"
           />
         </Link>
@@ -58,7 +58,7 @@ function Blog() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero3.jpg"}
+            src={"/hero3.png"}
             alt="pic1"
           />
         </Link>
@@ -67,7 +67,7 @@ function Blog() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero3.jpg"}
+            src={"/hero3.png"}
             alt="pic1"
           />
         </Link>
