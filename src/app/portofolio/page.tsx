@@ -12,7 +12,7 @@ function page() {
       <div className="w-full h-svh relative">
         <div className="absolute inset-0">
           <Image
-            src={"/static/image/Hero04.png"}
+            src={"/logo.png"}
             alt="background image"
             fill
             className="object-cover bg-center"
