@@ -1,9 +1,18 @@
 import React from "react";
+import Image from "next/image";
 
 function Connect() {
   return (
-    <div className="w-full h-[646px] bg-[url('/hero7.jpg')] bg-cover flex items-center justify-center backdrop-blur-lg backdrop-brightness-50 bg-center">
-      <div className="items-center justify-center">
+    <div className="relative w-full h-[646px]">
+      <div className="absolute inset-0">
+        <Image
+          src="/hero7.jpg"
+          alt="background image"
+          fill
+          className="object-cover bg-center"
+        />
+      </div>
+      <div className="relative z-10 flex flex-col items-center justify-center h-full">
         <h2 className=" text-white text-center text-[30px] font-bold mb-2">
           Lets&apos; Connect
         </h2>
