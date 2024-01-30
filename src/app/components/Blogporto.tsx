@@ -23,7 +23,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src="/hero.jpg"
+            src={"/hero.jpg"}
             alt="pic1"
           />
         </Link>
@@ -32,7 +32,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src="/hero.jpg"
+            src={"/hero.jpg"}
             alt="pic1"
           />
         </Link>
@@ -41,7 +41,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src="/hero.jpg"
+            src={"/hero.jpg"}
             alt="pic1"
           />
         </Link>
@@ -50,7 +50,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src="/hero.jpg"
+            src={"/hero.jpg"}
             alt="pic1"
           />
         </Link>
@@ -59,7 +59,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src="/hero.jpg"
+            src={"/hero.jpg"}
             alt="pic1"
           />
         </Link>
@@ -68,7 +68,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src="/hero.jpg"
+            src={"/hero.jpg"}
             alt="pic1"
           />
         </Link>
@@ -77,7 +77,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src="/hero.jpg"
+            src={"/hero.jpg"}
             alt="pic1"
           />
         </Link>
@@ -86,7 +86,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src="/hero.jpg"
+            src={"/hero.jpg"}
             alt="pic1"
           />
         </Link>
@@ -95,7 +95,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src="/hero.jpg"
+            src={"/hero.jpg"}
             alt="pic1"
           />
         </Link>
@@ -104,7 +104,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src="/hero.jpg"
+            src={"/hero.jpg"}
             alt="pic1"
           />
         </Link>
@@ -113,7 +113,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src="/hero.jpg"
+            src={"/hero.jpg"}
             alt="pic1"
           />
         </Link>
@@ -122,7 +122,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src="/hero.jpg"
+            src={"/hero.jpg"}
             alt="pic1"
           />
         </Link>

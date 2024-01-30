@@ -7,7 +7,7 @@ function Portofolio() {
       <div className="relative w-full h-[50%] md:h-full flex items-center justify-center cursor-pointer hover:scale-105 hover:ease-in-out transition duration-500 ">
         <div className="absolute inset-0">
           <Image
-            src="/hero5.jpg"
+            src={"/hero5.jpg"}
             alt="background image"
             fill
             className="object-cover bg-center"
@@ -22,7 +22,7 @@ function Portofolio() {
       <div className="relative w-full h-[50%] md:h-full flex items-center justify-center cursor-pointer hover:scale-105 hover:ease-in-out transition duration-500 ">
         <div className="absolute inset-0">
           <Image
-            src="/hero8.jpg"
+            src={"/hero8.jpg"}
             alt="background image"
             fill
             className="object-cover bg-center"
