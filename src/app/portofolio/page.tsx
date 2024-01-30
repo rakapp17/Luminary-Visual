@@ -3,7 +3,6 @@ import Navbarabu from "../components/Navbarabu";
 import Portofolio from "../components/Portofolio";
 import Blogporto from "../components/Blogporto";
 import Image from "next/image";
-import image04 from "../../public/Hero4.png";
 function page() {
   return (
     <div>
@@ -13,7 +12,7 @@ function page() {
       <div className="w-full h-svh relative">
         <div className="absolute inset-0">
           <Image
-            src={image04}
+            src={"/static/image/Hero04.png"}
             alt="background image"
             fill
             className="object-cover bg-center"
