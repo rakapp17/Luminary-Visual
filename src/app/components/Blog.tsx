@@ -1,6 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import hero03 from "../../../public/Hero3.png";
 
 function Blog() {
   return (
@@ -22,7 +23,7 @@ function Blog() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero3.png"}
+            src={hero03}
             alt="pic1"
           />
         </Link>
@@ -31,7 +32,7 @@ function Blog() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero3.png"}
+            src={hero03}
             alt="pic1"
           />
         </Link>
@@ -40,7 +41,7 @@ function Blog() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero3.png"}
+            src={hero03}
             alt="pic1"
           />
         </Link>
@@ -49,7 +50,7 @@ function Blog() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero3.png"}
+            src={hero03}
             alt="pic1"
           />
         </Link>
@@ -58,7 +59,7 @@ function Blog() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero3.png"}
+            src={hero03}
             alt="pic1"
           />
         </Link>
@@ -67,7 +68,7 @@ function Blog() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero3.png"}
+            src={hero03}
             alt="pic1"
           />
         </Link>

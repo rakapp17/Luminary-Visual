@@ -1,12 +1,13 @@
 import React from "react";
 import Image from "next/image";
+import hero07 from "../../../public/Hero7.png";
 
 function Connect() {
   return (
     <div className="relative w-full h-[646px]">
       <div className="absolute inset-0">
         <Image
-          src={"/hero7.png"}
+          src={hero07}
           alt="background image"
           fill
           className="object-cover bg-center"

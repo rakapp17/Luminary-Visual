@@ -2,6 +2,7 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import Footer from "./Footer";
+import hero from "../../../public/Hero.png";
 function Blogporto() {
   return (
     <div>
@@ -23,7 +24,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero.png"}
+            src={hero}
             alt="pic1"
           />
         </Link>
@@ -32,7 +33,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero.png"}
+            src={hero}
             alt="pic1"
           />
         </Link>
@@ -41,7 +42,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero.png"}
+            src={hero}
             alt="pic1"
           />
         </Link>
@@ -50,7 +51,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero.png"}
+            src={hero}
             alt="pic1"
           />
         </Link>
@@ -59,7 +60,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero.png"}
+            src={hero}
             alt="pic1"
           />
         </Link>
@@ -68,7 +69,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero.png"}
+            src={hero}
             alt="pic1"
           />
         </Link>
@@ -77,7 +78,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero.png"}
+            src={hero}
             alt="pic1"
           />
         </Link>
@@ -86,7 +87,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero.png"}
+            src={hero}
             alt="pic1"
           />
         </Link>
@@ -95,7 +96,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero.png"}
+            src={hero}
             alt="pic1"
           />
         </Link>
@@ -104,7 +105,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero.png"}
+            src={hero}
             alt="pic1"
           />
         </Link>
@@ -113,7 +114,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero.png"}
+            src={hero}
             alt="pic1"
           />
         </Link>
@@ -122,7 +123,7 @@ function Blogporto() {
             width={330}
             height={210}
             className="w-full h-full object-cover"
-            src={"/hero.png"}
+            src={hero}
             alt="pic1"
           />
         </Link>
